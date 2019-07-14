@@ -1,0 +1,49 @@
+nav.navbar {
+    background: #76CFDB;
+    font-size: 18px;
+}
+
+nav ul li {
+    font-size: 25px;
+    padding: 0 25px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #103858;
+}
+
+div#main-wrapper {
+    padding-top: 150px;
+}
+
+#main-wrapper section i {
+    font-size: 100px;
+}
+
+section ul li {
+    list-style: none;
+}
+
+section ul li span {
+    font-weight: bold;
+}
+form {
+    width: 65%;
+    margin: 12% auto;
+}
+
+form button {
+    margin: 25px;
+}
+
+.card-title, .card-text {
+    color: #000;
+}
+
+.card-body {
+    clear: both;
+}
+
+.card-link {
+    font-size: 50px;
+}

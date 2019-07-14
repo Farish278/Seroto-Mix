@@ -1,0 +1,88 @@
+nav.navbar {
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+}
+
+.main-header nav .navbar-brand img {
+    max-width: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.main-header nav ul{
+    text-transform: uppercase;
+}
+
+header.main-header {
+    border-radius: 0;
+    height: 100vh;
+    background: url("../img/bgimg.png") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-content p, .header-content a, .header-content span {
+    margin: 50px 0;
+}
+
+.header-content span button {
+    padding: 20px 60px;
+}
+
+div#main-wrapper {
+    margin-top: -32px;
+    padding: 50px;
+    background-color: #FF4E00;
+    color: #fff;
+}
+
+section.how-it-works {
+    text-align: center;
+}
+
+section.how-it-works div i {
+    font-size: 75px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+div.how-it-works-wrapper {
+    margin-top: 85px;
+}
+
+div.how-it-works-wrapper div {
+    margin-bottom: 50px;
+}
+
+div.how-it-works-wrapper h2 {
+    margin: 25px 0;
+}
+
+section.how-it-works h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+div#footer {
+    background-color: rgb(20,25,40);
+    color: #fff;
+    padding: 25px 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-outline-light a {
+    color: #fff;
+}
+
+.btn-outline-light a:hover {
+    color: #000;
+}
